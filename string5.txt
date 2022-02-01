@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+   
+    int i,j;
+    char A[]="ekta";
+    char B[]="Ektaing";
+    for(i=0,j=0;A[i]!='\0'&& B[j]!='\0';i++,j++)
+    {
+         if(A[i]!=B[i]);
+             break;
+        
+    }
+    
+if(A[i]==B[j]){
+    printf("they are equal");
+}
+else if(A[i]<B[j]){
+    printf("samller");
+}
+else
+    printf("greater");
+}
